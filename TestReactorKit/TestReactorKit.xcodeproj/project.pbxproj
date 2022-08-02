@@ -21,6 +21,8 @@
 		968E5AA028994E4400E11DB3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 968E5A9F28994E4400E11DB3 /* RxCocoa */; };
 		968E5AA228994E4400E11DB3 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 968E5AA128994E4400E11DB3 /* RxRelay */; };
 		968E5AA428994E4400E11DB3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 968E5AA328994E4400E11DB3 /* RxSwift */; };
+		968E5AA7289951C100E11DB3 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E5AA6289951C100E11DB3 /* CounterViewController.swift */; };
+		968E5AA9289951D400E11DB3 /* CounterViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E5AA8289951D400E11DB3 /* CounterViewReactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		968E5A8228994CA800E11DB3 /* TestReactorKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestReactorKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		968E5A8628994CA800E11DB3 /* TestReactorKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReactorKitUITests.swift; sourceTree = "<group>"; };
 		968E5A8828994CA800E11DB3 /* TestReactorKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReactorKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		968E5AA6289951C100E11DB3 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		968E5AA8289951D400E11DB3 /* CounterViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewReactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				968E5AAA289951FA00E11DB3 /* LauncherApplication */,
+				968E5AA52899519F00E11DB3 /* cloneCode */,
 				968E5A6B28994CA500E11DB3 /* Main.storyboard */,
 				968E5A6E28994CA700E11DB3 /* Assets.xcassets */,
 				968E5A7028994CA700E11DB3 /* LaunchScreen.storyboard */,
@@ -133,6 +138,15 @@
 				968E5A8828994CA800E11DB3 /* TestReactorKitUITestsLaunchTests.swift */,
 			);
 			path = TestReactorKitUITests;
+			sourceTree = "<group>";
+		};
+		968E5AA52899519F00E11DB3 /* cloneCode */ = {
+			isa = PBXGroup;
+			children = (
+				968E5AA6289951C100E11DB3 /* CounterViewController.swift */,
+				968E5AA8289951D400E11DB3 /* CounterViewReactor.swift */,
+			);
+			path = cloneCode;
 			sourceTree = "<group>";
 		};
 		968E5AAA289951FA00E11DB3 /* LauncherApplication */ = {
@@ -289,7 +303,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968E5AA7289951C100E11DB3 /* CounterViewController.swift in Sources */,
 				968E5A6628994CA500E11DB3 /* AppDelegate.swift in Sources */,
+				968E5AA9289951D400E11DB3 /* CounterViewReactor.swift in Sources */,
 				968E5A6828994CA500E11DB3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
