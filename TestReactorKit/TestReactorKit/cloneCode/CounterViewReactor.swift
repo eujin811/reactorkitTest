@@ -32,7 +32,7 @@ final class CounterViewReactor: Reactor {
         var isLoading: Bool
     }
     
-    let initialState: State //= State(value: 0, isLoading: false)
+    let initialState: State
     
     init() {
         self.initialState = State(value: 0, isLoading: false)
@@ -46,13 +46,13 @@ final class CounterViewReactor: Reactor {
             return Observable.concat([
                 Observable.just(.setLoading(true)),
                 Observable.just(.increaseValue)
-                    .delay(.milliseconds(500), scheduler: MainScheduler.instance),
+                    .delay(.milliseconds(300), scheduler: MainScheduler.instance),
                 Observable.just(.setLoading(false))
             ])
         case .decrease:
             return Observable.concat([
                 Observable.just(.setLoading(true)),
-                Observable.just(.decreaseValue).delay(.milliseconds(500), scheduler: MainScheduler.instance),
+                Observable.just(.decreaseValue).delay(.milliseconds(300), scheduler: MainScheduler.instance),
                 Observable.just(.setLoading(false))
             ])
         }

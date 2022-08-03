@@ -24,11 +24,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let seneDelegate = windowScene.delegate as? SceneDelegate
         seneDelegate?.window = window
         window?.makeKeyAndVisible()
-        
-//        guard let _ = (scene as? UIWindowScene) else { return }
-//        let counterVC = window?.rootViewController as? CounterViewController
-//        let counterViewReactor = CounterViewReactor()
-//        counterVC?.reactor = counterViewReactor
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
