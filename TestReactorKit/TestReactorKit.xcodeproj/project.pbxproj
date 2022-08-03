@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960C32E3289A9FC7003EE321 /* CounterReactorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C32E2289A9FC7003EE321 /* CounterReactorTests.swift */; };
 		968E5A6628994CA500E11DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E5A6528994CA500E11DB3 /* AppDelegate.swift */; };
 		968E5A6828994CA500E11DB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E5A6728994CA500E11DB3 /* SceneDelegate.swift */; };
 		968E5A6D28994CA500E11DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968E5A6B28994CA500E11DB3 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		960C32E2289A9FC7003EE321 /* CounterReactorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReactorTests.swift; sourceTree = "<group>"; };
 		968E5A6228994CA500E11DB3 /* TestReactorKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestReactorKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		968E5A6528994CA500E11DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		968E5A6728994CA500E11DB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				968E5A7C28994CA800E11DB3 /* TestReactorKitTests.swift */,
+				960C32E2289A9FC7003EE321 /* CounterReactorTests.swift */,
 			);
 			path = TestReactorKitTests;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				968E5A7D28994CA800E11DB3 /* TestReactorKitTests.swift in Sources */,
+				960C32E3289A9FC7003EE321 /* CounterReactorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
